@@ -1,4 +1,7 @@
 flask
-openai
-beautifulsoup4
 requests
+python-dotenv
+sentence-transformers
+scikit-learn
+numpy
+beautifulsoup4
