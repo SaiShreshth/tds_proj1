@@ -1,0 +1,11 @@
+providers:
+  - id: virtual-ta
+    config:
+      url: https://your-deployed-url/api/
+scenarios:
+  - name: GPT model choice
+    input:
+      question: "Should I use gpt-4o-mini or gpt-3.5 turbo?"
+  - name: Clarification on GA5
+    input:
+      question: "What tokenizer should I use for GA5?"
